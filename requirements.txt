@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+sentence-transformers
+torch # required by sentence-transformers
