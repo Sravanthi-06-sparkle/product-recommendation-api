@@ -79,4 +79,3 @@ def get_recommendations(req: QueryRequest):
     products_to_use = req.products if req.products is not None else default_products
     results = recommend_products(req.query, products_to_use, req.top_k)
     return {"recommendations": results}
-uvicorn main:app --reload
