@@ -10,3 +10,4 @@ This is a simple product recommendation API using machine learning (semantic sim
 -	sentence-transformers (all-MiniLM-L6-v2) ## Install Requirements
 bash
 pip install fastapi uvicorn sentence-transformers
+uvicorn main:app --reload
